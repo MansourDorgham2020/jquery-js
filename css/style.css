@@ -1,0 +1,183 @@
+ a{
+    text-decoration:none ;
+    color: #fff;
+ }
+ ul{
+    list-style-type: none;
+ }
+ #Home{
+    background-image: url(../imgs/images\ \(2\).jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+.layer{
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-color: rgba(214, 46, 51 , 0.6);
+     position: absolute;
+}
+#leftmenu{
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    /* left: 0; */
+    height: 100vh;
+    background-color: #111;
+    transition: all 0.5s;
+    padding-top: 60px;
+    width: 270px;
+    left: -270px;
+    
+    
+}
+#leftmenu .side-menu .close{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: 25px;
+    cursor: pointer;
+}
+#leftmenu .side-menu li{
+    padding: 15px 0;
+}
+#leftmenu .openicon{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    cursor: pointer;
+    right: -110px;
+    
+}
+.home-content {
+ margin: 200px;
+ padding: 16px;
+ text-align: center;
+ /* transition: margin-left .5s; */
+}
+.home-content h2{
+    font-size: 60px;
+}
+
+.open-navbar{
+    font-size: 40px;
+    cursor: pointer;
+    
+}
+.sidenavbar li:hover{
+    color: rgba(214, 46, 51, 0.4);
+}
+.sidenavbar .far:hover{
+    color: rgba(214, 46, 51, 0.4);
+}
+.sidenavbar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.open-navbar{
+    left: 0;
+}
+.according{
+    padding: 50px 0;
+}
+
+.according h3{
+    background-color: rgba(214, 46, 51, 0.6) ;
+    color:#fff ;
+    text-transform: uppercase;
+}
+.according > div{
+    background-color:#ccc;
+    color: black;
+    text-align: justify;
+    text-transform: capitalize;
+    line-height: 1.7;
+    display: none;
+}
+
+.contact{
+    margin-top: 100px;
+}
+.contact .header p{
+    color: #777;
+    font-weight: 300;
+    font-size: 16px;
+}
+.contact .header h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 20px;
+}
+.contact .info h3{
+    color: #444;
+    font-size: 18px;
+   font-weight: 800;
+}
+.contact .info p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #777;
+}
+.contact .icons{
+    margin-top: 50px;
+}
+.contact .icons p{
+    margin-bottom: 35px;
+}
+.contact i{
+    margin-right: 20px;
+    color: #777;
+}
+.contact .info .social-icons{
+   margin-top: 60px;
+}
+.contact .info .social-icons i{
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 42px;
+}
+.contact .info .social-icons i:hover{
+    color: #fff;
+    background-color:#D62E33 ;
+    border:1px solid #D62E33;
+
+}
+.contact form textarea{
+    height: 200px;
+    resize:vertical;
+}
+.chars
+{
+    font-size: 20px;
+    color: #D62E33;
+}
+.contact form button{
+    padding:10px 20px;
+    border-radius: 0;
+}
+.count{
+    background-color: rgba(214, 46, 51, 0.6) ;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+
+}
+.container{
+    padding: 100px 0;
+}
+
+
